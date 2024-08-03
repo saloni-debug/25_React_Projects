@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d9adad;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper  button {
+    padding: 10px 20px;
+    background-color: #a55555;
+    border: none;
+    border-radius: 5px;
+    color: #3e1f1f;
+    font-weight: bold;
+    cursor: pointer;
+}
+.accordian {
+    width: 800px;
+}
+
+.item {
+    background-color: #cb8d8d;
+    max-width: 500px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    color: #3e1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: x-large;
+    color: #3e1f1f;
+}
+.content {
+    color: #3e1f1f;
+    height: auto;
+}
