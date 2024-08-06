@@ -14,7 +14,7 @@ export default function StarRating() {
                     const ratingValue = index + 1;
                     return (
                         <span onClick={() => setRating(ratingValue)}>
-                            <i className="far fa-star" style={{ color: (ratingValue <= (hover||rating)) ? "#ffc107" : "#e4e5e9" }}
+                            <i className="fa fa-star" style={{ color: (ratingValue <= (hover || rating)) ? "#ffc107" : "#000000" }}
                                 onMouseEnter={() => setHover(ratingValue)}
                                 onMouseLeave={() => setHover(0)}></i>
                         </span>
